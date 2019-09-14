@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/mvp_retrofit"
+        android:layout_width="match_parent"
+        android:text="MVP+retrofit"
+        android:background="@drawable/my_button_bg"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/mvp_retrofit_di"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:text="MVP+retrofit+DI"
+        android:background="@drawable/my_button_bg"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
